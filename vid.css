@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 800px;
+    height: 450px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#vid{
+    width: 100%;
+    height: 100%;
+}
+.con{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.3);
+}
+.con-top{
+    height: 5px;
+    background-color: #c8c1b9;
+    position: relative;
+}
+.pro{
+    width: 0;
+    height: 5px;
+    background-color: #f50;
+}
+.btn{
+    width: 4px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    background-color: #f50;
+}
+.left{
+    width: 200px;
+    height: 45px;
+    float: left;
+
+
+}
+.right{
+    width: 200px;
+    height: 45px;
+    float: right;
+}
+
+.left-play,.left-next,.left-time ,.right-volume,.right-full{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+}
+.left-play,.left-next,.right-volume,.right-full{
+    background: url("icon.png") no-repeat 0 center/ 496px 21px;
+}
+.left-play{
+    margin-left: 15px;
+    background-position-x: 12px;
+}
+.left-next{
+    background-position-x: -132px;
+}
+.left-time{
+    line-height: 45px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+.right-volume{
+    margin-left: 50px;
+    margin-right: 60px;
+    background-position-x: -335px;
+
+}
+
+.right-full{
+    background-position-x:-475px;
+}
